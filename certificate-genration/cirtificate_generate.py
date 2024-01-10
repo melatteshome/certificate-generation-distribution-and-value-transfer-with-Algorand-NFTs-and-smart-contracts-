@@ -68,8 +68,6 @@ def edit_generated_certificate():
     positionl2_x = 460
     positionl2_y = 771
 
-
-
     certificate[positionl1_y:positionl1_y+header_logo.shape[0], positionl1_x:positionl1_x+header_logo.shape[1]] = header_logo
     certificate[positionl2_y:positionl2_y+footer_logo.shape[0], positionl2_x:positionl2_x+footer_logo.shape[1]] = footer_logo
 
