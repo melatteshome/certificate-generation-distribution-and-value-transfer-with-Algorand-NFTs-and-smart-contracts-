@@ -1,0 +1,61 @@
+/* App.css */
+
+.adminContainer {
+    font-family: Arial, sans-serif;
+    background-color: white;
+    color: burgundy;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+.tabs button {
+    background-color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: burgundy;
+    cursor: pointer;
+}
+
+.tabs button.active {
+    background-color: burgundy;
+    color: white;
+}
+
+.content {
+    border: 1px solid burgundy;
+    padding: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th,
+td {
+    padding: 10px;
+    border-bottom: 1px solid burgundy;
+}
+
+th {
+    background-color: burgundy;
+    color: white;
+}
+
+button {
+    background-color: burgundy;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #800000;
+}
